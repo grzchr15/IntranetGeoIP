@@ -1,16 +1,16 @@
 {
   "name": "IntranetGeoIP",
-  "version": "2.0.0",
+  "version": "3.0.2",
   "description": "Piwik plugin to locate all locale data of a user based on the IP address/subnetwork (country, region, city, latitude, longitude, provider, ...)",
   "keywords": ["Subnet", "Intranet", "IPv4", "IPv6", "GeoIP", "ThaDafinser"],
   "license": "GPL v3",
-  "homepage": "https://github.com/ThaDafinser/IntranetGeoIP",
+  "homepage": "https://github.com/ThaDafinser/Piwik-IntranetGeoIP",
   "authors": [
     {"name": "Martin Keckeis", "homepage": "https://github.com/thadafinser"}
   ],
   "theme": false,
   "require": {
-    "piwik": "2.3.0",
-    "php": "5.4.0"
+    "piwik": ">=3.0.0-b1,<4.0.0-b1",
+    "php": ">=7.0.0,<8.0.0"
   }
 }
